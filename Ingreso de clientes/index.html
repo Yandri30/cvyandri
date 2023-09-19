@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Datos de Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Ingreso de Datos de Clientes</h1>
+        <form id="clienteForm">
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+            
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" required>
+
+            <button type="submit" style="font-size: 16px;">Guardar</button>
+        </form>
+        
+        <!-- Elemento para el mensaje de éxito (inicialmente oculto) -->
+        <div id="mensajeExito" style="display: none;"></div>
+        
+        <a href="clientes.html" id="verClientesBtn" class="ver-clientes-link">Ver Clientes Registrados</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px; /* Reduzco el ancho máximo */
+    margin: 10% auto; /* Centra verticalmente con espacio en la parte superior */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 30px 20px; /* Aumento el relleno vertical y reduzco el relleno horizontal */
+    border-radius: 10px; /* Aumento el radio de los bordes para hacerlo más redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Agrega espacio interno al formulario */
+}
+
+form label {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="submit"],
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#mensajeExito {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilos para la lista de clientes */
+.lista-clientes .cliente-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.borrarCliente {
+    background-color: #ff4040;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para los enlaces */
+.ver-clientes-link,
+.volver-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.ver-clientes-link:hover,
+.volver-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la imagen de fondo y centrado del formulario */
+body {
+    background-image: url('https://3.bp.blogspot.com/-42tLHsYZHGM/UNuWVZ6qR0I/AAAAAAAAyBc/Szurs8tfJpE/s1600/1024+-+Paisaje+Wallpaper+(12).jpg'); /* Reemplaza 'ruta/a/imagen-de-fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.container {
+    margin: 10% auto; /* Centra verticalmente con espacio en la parte superior */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+}
