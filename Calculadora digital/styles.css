@@ -1,0 +1,40 @@
+/* Estilo para los campos de entrada */
+input {
+    width: 100px;
+    padding: 10px; /* Aumenta el espacio interior para que se vea más grande */
+    font-size: 18px; /* Aumenta el tamaño de fuente */
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de fuente a Arial o el que prefieras */
+}
+
+/* Elimina márgenes predeterminados del cuerpo y el documento */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el fondo de la página */
+body {
+    /* Cambia la URL a la ubicación de tu imagen de fondo */
+    background-image: url('https://tax.thomsonreuters.com/blog/wp-content/uploads/sites/17/2020/03/GettyImages-809109100-724x450.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #f8e5e5d3; /* Cambia el color de la letra */
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de fuente del texto principal */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #61a8f4;/* Cambia el color del botón */
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    margin: 10px; /* Aumenta el margen para separar los botones */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Aumenta el tamaño de fuente de los botones */
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de fuente de los botones */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
